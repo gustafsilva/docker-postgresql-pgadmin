@@ -1,2 +1,1 @@
-# docker-postgresql-pgadmin
-PostgreSQL + PGadmin with docker and docker-compose.
+# PostgreSQL + PGAdmin with Docker and docker-compose
