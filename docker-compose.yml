@@ -10,7 +10,7 @@ services:
     ports:
       - "5432:5432" # MODIFY
     networks:
-      - db-network
+      - databse
     restart: unless-stopped
   
   pgadmin:
@@ -22,9 +22,9 @@ services:
     ports:
       - "80:80"
     networks:
-      - db-network
+      - database
     restart: unless-stopped
 
 networks:
-  db-network:
+  database:
     driver: bridge
